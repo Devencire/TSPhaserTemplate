@@ -1,5 +1,4 @@
 /// <reference path="../../lib/def/phaser.d.ts"/>
-/// <reference path="../../lib/def/require.d.ts"/>
 
 class Main {
     run() {

@@ -3,7 +3,7 @@
 require.config({
     baseUrl: "./ts",
     paths: {
-        lib: "../../lib"
+        lib: "../../" + "lib"
     }
 });
 

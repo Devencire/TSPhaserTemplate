@@ -1,0 +1,9 @@
+TSPhaserTemplate
+================
+
+A skeleton project for writing HTML5 games in TypeScript, backed by the Phaser game framework.
+
+(A) Setup
+---------
+
+Get the [Atom text editor](https://atom.io/), install the [Atom TypeScript](https://atom.io/packages/atom-typescript) package, install [atom-jade](https://atom.io/packages/language-jade) and [jade-autocompile](https://atom.io/packages/jade-autocompile), and run a [Python SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) (or [Python 3 http.server](https://docs.python.org/3/library/http.server.html)) in the repository root.

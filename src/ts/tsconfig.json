@@ -21,7 +21,16 @@
         "!./node_modules/**/*"
     ],
     "files": [
+        "./Communities.ts",
+        "./Community.ts",
         "./Config.ts",
-        "./Main.ts"
+        "./Main.ts",
+        "./PlayState.ts",
+        "./Player.ts",
+        "./Road.ts",
+        "./Town.ts",
+        "./TravelGroup.ts",
+        "./Util.ts",
+        "./Village.ts"
     ]
 }

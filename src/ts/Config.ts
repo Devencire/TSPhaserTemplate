@@ -1,25 +1,25 @@
 /// <reference path="../../lib/def/require.d.ts" />
 
 require.config({
-    baseUrl: "./ts",
-    paths: {
-        lib: "../../" + "lib"
-    }
+  baseUrl: "./ts",
+  paths: {
+    lib: "../../" + "lib"
+  }
 });
 
 require(
-    ["lib/p2"],
-    (p2) => {
+  ["lib/p2"],
+  (p2) => {
+    require(
+      ["lib/phaser"],
+      (Phaser) => {
         require(
-            ["lib/phaser"],
-            (Phaser) => {
-                require(
-                    ["Main"],
-                    (Main) => {
-                        new Main().run();
-                    }
-                );
-            }
-        );
-    }
-);
+          ["Main"],
+          (Main) => {
+            new Main().run();
+          }
+          );
+      }
+      );
+  }
+  );

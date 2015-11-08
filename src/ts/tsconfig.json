@@ -1,8 +1,8 @@
 {
-    "version": "1.5.0-beta",
     "compilerOptions": {
         "target": "es5",
         "module": "amd",
+        "moduleResolution": "node",
         "isolatedModules": false,
         "jsx": "react",
         "experimentalDecorators": true,
@@ -12,16 +12,15 @@
         "removeComments": true,
         "noLib": false,
         "preserveConstEnums": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "sourceMap": true
+        "suppressImplicitAnyIndexErrors": true
     },
     "filesGlob": [
-        "./**/*.ts",
-        "./**/*.tsx",
-        "!./node_modules/**/*"
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
     ],
     "files": [
-        "./Config.ts",
-        "./Main.ts"
+        "Config.ts",
+        "Main.ts"
     ]
 }

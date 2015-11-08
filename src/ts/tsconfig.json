@@ -21,6 +21,7 @@
     ],
     "files": [
         "Config.ts",
-        "Main.ts"
+        "Main.ts",
+        "PlayState.ts"
     ]
 }

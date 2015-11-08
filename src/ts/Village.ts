@@ -1,5 +1,5 @@
-import Community = require('Community')
-import Town = require('Town')
+import Community = require('./Community')
+import Town = require('./Town')
 
 class Village extends Community {
   static minVillageDistance = 50;

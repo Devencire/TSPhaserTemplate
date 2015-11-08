@@ -1,5 +1,5 @@
-import Road = require("Road");
-import PlayState = require("PlayState");
+import Road = require("./Road");
+import PlayState = require("./PlayState");
 
 class Community extends Phaser.Sprite {
 

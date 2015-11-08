@@ -1,4 +1,4 @@
-import Community = require("Community")
+import Community = require("./Community")
 
 class TravelGroup extends Phaser.Sprite {
 

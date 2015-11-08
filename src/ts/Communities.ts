@@ -1,9 +1,9 @@
-import PlayState = require('PlayState')
-import Community = require('Community')
-import Village = require('Village')
-import Town = require('Town')
-import Road = require('Road')
-import Util = require('Util')
+import PlayState = require('./PlayState')
+import Community = require('./Community')
+import Village = require('./Village')
+import Town = require('./Town')
+import Road = require('./Road')
+import Util = require('./Util')
 
 console.log(Util.distanceFromPointToLine(
   new Phaser.Point(400, 400),

@@ -1,5 +1,5 @@
-import TravelGroup = require("TravelGroup")
-import Community = require("Community")
+import TravelGroup = require("./TravelGroup")
+import Community = require("./Community")
 
 class Player extends TravelGroup {
 

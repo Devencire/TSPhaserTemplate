@@ -1,8 +1,8 @@
 {
-    "version": "1.5.0-beta",
     "compilerOptions": {
         "target": "es5",
         "module": "amd",
+        "moduleResolution": "node",
         "isolatedModules": false,
         "jsx": "react",
         "experimentalDecorators": true,
@@ -12,25 +12,25 @@
         "removeComments": true,
         "noLib": false,
         "preserveConstEnums": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "sourceMap": true
+        "suppressImplicitAnyIndexErrors": true
     },
     "filesGlob": [
-        "./**/*.ts",
-        "./**/*.tsx",
-        "!./node_modules/**/*"
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
     ],
     "files": [
-        "./Communities.ts",
-        "./Community.ts",
-        "./Config.ts",
-        "./Main.ts",
-        "./PlayState.ts",
-        "./Player.ts",
-        "./Road.ts",
-        "./Town.ts",
-        "./TravelGroup.ts",
-        "./Util.ts",
-        "./Village.ts"
-    ]
+        "Communities.ts",
+        "Community.ts",
+        "Config.ts",
+        "Main.ts",
+        "Player.ts",
+        "PlayState.ts",
+        "Road.ts",
+        "Town.ts",
+        "TravelGroup.ts",
+        "Util.ts",
+        "Village.ts"
+    ],
+    "exclude": []
 }

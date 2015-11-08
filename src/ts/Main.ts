@@ -1,6 +1,6 @@
 /// <reference path="../../lib/def/phaser.d.ts" />
 
-import PlayState = require('PlayState')
+import PlayState = require('./PlayState')
 
 class Main {
   game: Phaser.Game;

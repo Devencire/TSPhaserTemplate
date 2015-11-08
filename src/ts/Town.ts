@@ -1,7 +1,7 @@
-import Community = require('Community')
-import Village = require('Village')
-import Road = require('Road')
-import Util = require('Util')
+import Community = require('./Community')
+import Village = require('./Village')
+import Road = require('./Road')
+import Util = require('./Util')
 
 class Town extends Community {
   static townCount = 0;

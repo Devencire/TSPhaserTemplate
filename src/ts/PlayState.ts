@@ -1,5 +1,5 @@
-import Communities = require('Communities')
-import Player = require('Player')
+import Communities = require('./Communities')
+import Player = require('./Player')
 
 class PlayState extends Phaser.State {
   static instance: PlayState;
